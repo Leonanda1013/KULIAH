@@ -1,3 +1,5 @@
+package SEMESTER1.Praktikum_9;
+
 public class LinearScearch29 {
  public static void main(String[] args) {
     int[] arrayInt = {34, 18,26,48,72,20,56,63};
