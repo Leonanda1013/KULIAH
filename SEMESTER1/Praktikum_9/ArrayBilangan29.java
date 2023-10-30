@@ -1,4 +1,4 @@
-package SEMESTER1.Jobsheet_9; // ini merupakan deklarsi package karena saya menaruh file didalam suatu storage
+package Praktikum_9; // ini merupakan deklarsi package karena saya menaruh file didalam suatu storage
 
 public class ArrayBilangan29 {
 

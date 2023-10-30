@@ -1,4 +1,3 @@
-package SEMESTER1.Jobsheet_9;
 
 import java.util.Scanner;
 

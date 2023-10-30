@@ -1,4 +1,4 @@
-package SEMESTER1.LatihanMandiri;
+package LatihanMandiri;
 
 import java.util.Scanner;
 
