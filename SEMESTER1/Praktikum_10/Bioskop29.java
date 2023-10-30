@@ -13,11 +13,24 @@ public class Bioskop29 {
         penonton[2][0] = "Eka";
         penonton[2][1] = "Farhan";
         penonton[3][0] = "Gisel";
+        penonton[3][1] = "Hana"; //tambahan
+
 
         System.out.printf("%s \t %s\n", penonton[0][0], penonton[0][1]);
         System.out.printf("%s \t %s\n", penonton[1][0], penonton[1][1]);
         System.out.printf("%s \t %s\n", penonton[2][0], penonton[2][1]);
         System.out.printf("%s \t %s\n", penonton[3][0], penonton[3][1]);
-        //Ini mencetak daftar penonton ke layar menggunakan System.out.printf. Setiap baris mencetak dua nama penonton, yang diambil dari elemen array penonton. Format %s digunakan untuk mencetak string. Pernyataan System.out.printf ini mencetak daftar penonton dalam format dua kolom, di mana kolom pertama berisi nama penonton di sebelah kiri dan kolom kedua berisi nama penonton di sebelah kanan.
+
+        System.out.println(penonton.length);
+        System.out.println(penonton[0].length);
+        System.out.println(penonton[1].length);
+        System.out.println(penonton[2].length);
+        System.out.println(penonton[3].length);
+
+        System.out.println(penonton.length);
+
+        for (int i = 0; i < penonton.length; i++) {
+            System.out.println("Panjang baris ke-" + (i+1) + ": " + penonton[i].length);
+        }
     }
 }
