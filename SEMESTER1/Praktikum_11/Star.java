@@ -9,7 +9,7 @@ public class Star {
         System.out.print("Masukkan nilai N = ");
         int N = sc29.nextInt();
         //Gunakan loop for untuk mencetak tanda asterisk (*) sebanyak N kali dalam satu baris.
-        for (int i = 0; i <= N; i--) {
+        for (int i = 0; i > N; i--) {
             System.out.print("*");
         }
         sc29.close();
