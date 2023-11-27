@@ -1,4 +1,4 @@
-package Praktikum_13;
+
 
 public class TerimaKasih_292 {
     public static void UcapanTerimakasih(){

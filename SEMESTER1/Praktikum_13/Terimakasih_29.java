@@ -1,4 +1,4 @@
-package Praktikum_13;
+
 
 public class Terimakasih_29 {
     public static void main(String[] args) {

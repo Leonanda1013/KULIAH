@@ -1,4 +1,4 @@
-package Praktikum_13;
+
     public class ProgramKu29 {
         public static void TampilHinggaKei(int i) {
             for (int j = 1; j <= i; j++) {

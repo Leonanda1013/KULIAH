@@ -1,4 +1,3 @@
-package Praktikum_13;
 
 public class Percobaan529 {
     static void Tampil(String str, int... a){
