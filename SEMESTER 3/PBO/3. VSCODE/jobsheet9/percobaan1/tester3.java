@@ -5,6 +5,6 @@ public class tester3 {
         ElectricityBill eBill = new ElectricityBill(5, "A-1");
         Employee e[] = { pEmp, iEmp };
         Payable p[] = { pEmp, eBill };
-        Employee e2[] = { pEmp, iEmp, eBill }; // memang eror
+        // Employee e2[] = { pEmp, iEmp, eBill }; // memang eror
     }
 }

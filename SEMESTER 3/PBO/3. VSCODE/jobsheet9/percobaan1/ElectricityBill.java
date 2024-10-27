@@ -43,4 +43,9 @@ public class ElectricityBill
         }
         return bPrice;
     }
+
+    public String getBillInfo() {
+        return "kWH = " + kwh + "\n" + "Category = " + category + "(" + getBasePrice() + " per kWH)\n";
+
+    }
 }
