@@ -8,8 +8,8 @@ package pbominggu9.absractclass;
  *
  * @author ASUS
  */
-public class Hewan {
-    privtae int umur;
+public abstract class Hewan {
+    private int umur;
     
     protected Hewan(){
         this.umur = 0;
@@ -18,7 +18,11 @@ public class Hewan {
     public void bertambahUmur(){
         this.umur += 1;
         
-        public abstact void bergerak();
+    /**
+     *
+     */
+    
     }
+    public abstract void bergerak();
     
 }
