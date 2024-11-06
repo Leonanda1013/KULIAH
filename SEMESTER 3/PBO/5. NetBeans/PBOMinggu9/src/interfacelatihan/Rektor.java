@@ -12,10 +12,29 @@ public class Rektor {
     public void berSertifikatCumlaude(ICumlaude mahasiswa){
         System.out.println("Saya REKTOR, memberikan sertifikat cumlaude.");
         System.out.println("Selamat! silahkan perkenalkan diri Anda");
+        if(mahasiswa instanceof Mahasiswa){
+            ((Mahasiswa) mahasiswa).kuliahDiKampus();
+        } else if(mahasiswa instanceof Sarjana){
+            ((Sarjana) mahasiswa).kuliahDiKampus();
+        }
         
+    
+        
+        System.out.println("Aku Berkuliah di Kampus");
         mahasiswa.lulus();
         mahasiswa.meraihIPKTinggi();
         
         System.out.println("-------------------------------------------------");
     }
+    
+    public void beriSertifikatMawapres(IBerprestasi mahasiswa){
+        System.out.println("Saya REKTOR, memberikan sertifikat MAWAPRES");
+        System.out.println("Selamat! Bagaimana Anda bisa berprestasi?");
+        
+        mahasiswa.menjuaraiKompetisi();
+        mahasiswa.membuatPublikasiIlmiah();
+        
+        System.out.println("-----------------------------------");
+    }
 }
+
